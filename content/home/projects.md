@@ -2,7 +2,7 @@
 # A Projects section created with the Portfolio widget.
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
@@ -22,16 +22,16 @@ subtitle = ""
   filter_default = 0
   
   # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+     name = "Budget Tracker"
+     tag = "*"
   
   # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+   #  name = "Campaign Trail Managment"
+    # tag = "Given a candidate's campaign budget and cost for visiting each state, determines the optimal states for the candidate to visit to maximize their number of votes.  Implements three different methods, one using Knapsack algorithm, one using Minimum Spanning Tree algorithm, one using modified version of Traveling Salesman Problem.  Uses C++"
   
   # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+    # name = "Classify Piazza Posts"
+     #tag = "Uses Machine Learning to classify Piazza posts based on post content. Trains the classifier using example posts.  Predicts the label for a new post based on what it learned from the example posts.  Uses C++."
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
